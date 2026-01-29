@@ -1,0 +1,17 @@
+.Post {
+    background-color: #282A36;
+    color: #F8F8F2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.Post img {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tag {
+    margin-right: 5px;
+}

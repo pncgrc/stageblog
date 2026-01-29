@@ -1,0 +1,18 @@
+.Header {
+    background-color: mediumpurple;
+}
+
+.headerContainer {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 1280px;
+}
+
+.headerContainer h1 {
+    color: white;
+    transition: color 100ms ease-in-out;
+}
+
+.headerContainer h1:hover {
+    color: rgb(224, 224, 224);
+}

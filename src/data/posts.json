@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "title": "First Week",
+        "description": "Still getting used to the codebase. Feeling overwhelmed but excited.",
+        "imageUrl": "/images/react.svg",
+        "date": "2026-01-15",
+        "tags": ["internship", "week-1"]
+    },
+    {
+        "id": 0,
+        "title": "First Week",
+        "description": "Still getting used to the codebase. Feeling overwhelmed but excited.",
+        "imageUrl": "/images/react.svg",
+        "date": "2026-01-15",
+        "tags": ["internship", "week-1"]
+    },
+    {
+        "id": 0,
+        "title": "First Week",
+        "description": "Still getting used to the codebase. Feeling overwhelmed but excited.",
+        "imageUrl": "/images/react.svg",
+        "date": "2026-01-15",
+        "tags": ["internship", "week-1"]
+    },
+    {
+        "id": 1,
+        "title": "Test post",
+        "description": "Ember es un gatito muy bonito... Y muy pequeñito.",
+        "imageUrl": "/images/react.svg",
+        "date": "2026-01-29",
+        "tags": ["internship", "test"]
+    }
+
+]

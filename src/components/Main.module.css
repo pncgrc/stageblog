@@ -1,0 +1,7 @@
+.Main {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
