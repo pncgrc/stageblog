@@ -1,0 +1,49 @@
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282A36;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+    transition: border-color 0.25s, opacity 0.3s, transform 0.2s;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+}
+
+.backToTop.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.backToTop:hover {
+    border-color: #646cff;
+    transform: translateY(-2px);
+}
+
+.backToTop:focus,
+.backToTop:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.backToTop svg {
+    width: 24px;
+    height: 24px;
+}
+
+@media (prefers-color-scheme: light) {
+    .backToTop {
+        background-color: #f9f9f9;
+        color: #213547;
+    }
+}
