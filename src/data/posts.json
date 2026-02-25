@@ -1,34 +1,24 @@
 [
     {
         "id": 0,
-        "title": "First Week",
-        "description": "Still getting used to the codebase. Feeling overwhelmed but excited.",
-        "imageUrl": "/images/react.svg",
-        "date": "2026-01-15",
-        "tags": ["internship", "week-1"]
-    },
-    {
-        "id": 0,
-        "title": "First Week",
-        "description": "Still getting used to the codebase. Feeling overwhelmed but excited.",
-        "imageUrl": "/images/react.svg",
-        "date": "2026-01-15",
-        "tags": ["internship", "week-1"]
-    },
-    {
-        "id": 0,
-        "title": "First Week",
-        "description": "Still getting used to the codebase. Feeling overwhelmed but excited.",
-        "imageUrl": "/images/react.svg",
-        "date": "2026-01-15",
+        "title": "Eerste week",
+        "description": "Het was toch wel een hevige week, met veel \"impostor syndrome\" gevoelens, maar ik heb het overleefd. De codebase is heel groot in perspectief met wat ik tot nu toe gezien heb (en het is ook nog een monorepo), dus wat intimiderend voor nu. Ik heb kennisgemaakt met de codebase met hulp van Claude en de eerste kleine features geimplementeerd. Hopelijk gaat volgende week wat beter.",
+        "date": "2026-02-07",
         "tags": ["internship", "week-1"]
     },
     {
         "id": 1,
-        "title": "Test post",
-        "description": "Ember es un gatito muy bonito... Y muy pequeñito.",
-        "imageUrl": "/images/react.svg",
-        "date": "2026-01-29",
-        "tags": ["internship", "test"]
+        "title": "Eerste uitrol naar productie",
+        "description": "Deze week hebben wij features afgewerkt en getest. Vervolgens heeft onze stagementor de code naar productie gebracht. De uitrol was succesvol en de features zijn live. Ik ben best wel trots dat mensen mijn features nu gaan gebruiken.",
+        "imageUrl": "/images/week-2-first-deployment.png",
+        "date": "2026-02-14",
+        "tags": ["internship", "week-2"]
+    },
+    {
+        "id": 2,
+        "title": "Retrospective & vooruitgang",
+        "description": "De retrospective met de stagementor ging goed, hij was tevreden over mijn prestaties dus dat was een fier moment en een opluchting tegelijk. Ik heb soms nog steeds het gevoel dat ik veel te traag werk, maar dat is omdat ik de code dat ik aflever wil begrijpen en ik niet gewoon wil vibecoden. Ik heb ook iets over mezelf geleerd door aan dit project te werken: ik ben eigenlijk meer frontend developer dan fullstack developer (waar ik naar wil groeien), dus er is wat werk aan de winkel.",
+        "date": "2026-02-21",
+        "tags": ["internship", "week-3"]
     }
 ]
