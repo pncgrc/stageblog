@@ -20,5 +20,12 @@
         "description": "De retrospective met de stagementor ging goed, hij was tevreden over mijn prestaties dus dat was een fier moment en een opluchting tegelijk. Ik heb soms nog steeds het gevoel dat ik veel te traag werk, maar dat is omdat ik de code dat ik aflever wil begrijpen en ik niet gewoon wil vibecoden. Ik heb ook iets over mezelf geleerd door aan dit project te werken: ik ben eigenlijk meer frontend developer dan fullstack developer (waar ik naar wil groeien), dus er is wat werk aan de winkel.",
         "date": "2026-02-21",
         "tags": ["internship", "week-3"]
+    },
+    {
+        "id": 3,
+        "title": "Frustratie...",
+        "description": "Ik ben echt gefrustreerd... Ik geef instructies aan een AI agent en dan moet ik de code gaan oordelen of het goed is of niet terwijl ik de code zelf niet snap. Ik geloof best wel dat voor een senior developer, AI een tool kan zijn om de productiviteit naar een hoger niveau te brengen. Ik ben tot nu toe niet eens een junior developer en ik voel me als de kapitein van een vliegtuig die heel weinig over vliegtuigen besturen weet. Mijn vliegtuig wordt dan bestuurd door AI en ik vertrouw dan dat het goed gaat komen want ik heb geen flauw idee wat die allemaal zegt over hoe die mijn vliegtuig gaat landen.\nIk doe mijn best om de output met de hulp van AI te analyseren en te begrijpen, maar voor een grote feature kan je wel even bezig zijn. De laatste week heb ik zo goed als enkel één feature kunnen uitwerken (weliswaar een grote feature) en dat komt omdat ik door 23 bestanden de veranderingen wou analyseren en begrijpen.",
+        "date": "2026-02-28",
+        "tags": ["internship", "week-4"]
     }
 ]

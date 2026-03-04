@@ -1,3 +1,4 @@
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import type { PostProps } from '../types';
 import styles from './Post.module.css';
 
@@ -7,9 +8,9 @@ const Post = ({post}: PostProps) => {
         <article className={styles.Post}>
             <h2>{post.title}</h2>
             <img src={post.imageUrl} alt="" />
-            <p>{post.description}</p>
+            <p>{documentToReactComponents(post.description)}</p>
             <p>{post.date}</p>
-            <p>Tags: {post.tags?.map(tag => <a key={tag} className={styles.tag} href='#'>{tag}</a>)}</p>
+            <p>Tags: {post.tags}</p>
         </article>
     )
 }
