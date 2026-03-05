@@ -1,5 +1,5 @@
 import { contentfulClient } from "../lib/contentful";
-import type { BlogPostSkeleton, IPost } from "../types";
+import type { BlogPostSkeleton } from "../types";
 
 export async function getBlogPosts() {
   const response = await contentfulClient.getEntries<BlogPostSkeleton>({

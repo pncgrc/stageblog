@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import data from '../data/posts.json';
 import type { IPost } from '../types';
 import Post from './Post';
 import { getBlogPosts } from '../hooks/useBlogposts';
