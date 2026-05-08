@@ -20,7 +20,7 @@ const LatestPost = () => {
     return (
         <section className={styles.latest}>
             <h2>Nieuwste blogpost</h2>
-            <article className={styles.latestCard}>
+            <article className={`${styles.latestCard} ${!latestPost.imageUrl ? styles.latestCardNoImage : ''}`}>
                 {latestPost.imageUrl && (
                     <img src={latestPost.imageUrl} alt="" className={styles.latestImage} />
                 )}
