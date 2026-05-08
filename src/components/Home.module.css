@@ -17,7 +17,7 @@
 .hero h1 {
     font-size: 3rem;
     line-height: 1.15;
-    color: mediumpurple;
+    color: var(--text-primary);
     margin: 0;
 }
 
@@ -25,76 +25,67 @@
     max-width: 720px;
     line-height: 1.75;
     margin: 0;
-    opacity: 0.85;
+    color: var(--text-secondary);
 }
 
 .hero a {
-    color: mediumpurple;
+    color: var(--primary);
     font-weight: 600;
-    text-decoration: none;
 }
 
 .hero a:hover {
-    opacity: 0.75;
-    color: mediumpurple;
+    color: var(--primary-hover);
 }
 
 .hero .ctaButton {
     display: inline-block;
     margin-top: 8px;
     padding: 12px 28px;
-    background-color: mediumpurple;
-    color: white;
-    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--text-on-primary);
+    border-radius: 12px;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.95rem;
     text-decoration: none;
-    transition: background-color 300ms ease-in-out;
+    transition: background-color var(--transition-fast);
     align-self: flex-start;
-    opacity: 1;
 }
 
 .hero .ctaButton:hover {
-    background-color: #7b57c4;
-    color: white;
-    opacity: 1;
+    background-color: var(--primary-hover);
+    color: var(--text-on-primary);
 }
 
 /* About */
 .about h2 {
-    font-size: 1.6rem;
-    margin: 0 0 16px;
-    color: mediumpurple;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 14px;
+    color: var(--text-primary);
 }
 
 .about p {
-    line-height: 1.7;
-    margin: 0 0 16px;
-    opacity: 0.85;
+    line-height: 1.75;
+    margin: 0 0 14px;
+    color: var(--text-secondary);
+    max-width: 720px;
 }
 
-.usp {
-    margin: 0 0 16px;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    opacity: 0.85;
-}
-
-.usp li {
-    line-height: 1.6;
-}
-
-/* Latest post */
+/* Latest post (kept for reference, rendered via LatestPost component) */
 .latestCard {
     display: grid;
     grid-template-columns: 280px 1fr;
     gap: 32px;
-    background-color: rgba(147, 112, 219, 0.08);
-    border: 1px solid rgba(147, 112, 219, 0.2);
-    border-radius: 12px;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
     overflow: hidden;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.latestCard:hover {
+    border-color: var(--primary-border);
+    box-shadow: var(--shadow-md);
 }
 
 .latestImage {
@@ -113,17 +104,18 @@
 
 .latestDate {
     font-size: 0.85rem;
-    opacity: 0.55;
+    color: var(--text-muted);
     margin: 0;
 }
 
 .latestContent h3 {
     margin: 0;
     font-size: 1.3rem;
+    color: var(--text-primary);
 }
 
 .latestExcerpt {
-    opacity: 0.8;
+    color: var(--text-secondary);
     font-size: 0.95rem;
     line-height: 1.65;
     overflow: hidden;
@@ -135,17 +127,16 @@
 .readMore {
     display: inline-block;
     margin-top: 8px;
-    color: mediumpurple;
+    color: var(--primary);
     font-weight: 600;
     text-decoration: none;
     font-size: 0.95rem;
-    transition: opacity 200ms ease-in-out;
+    transition: color var(--transition-fast);
     align-self: flex-start;
 }
 
 .readMore:hover {
-    opacity: 0.7;
-    color: mediumpurple;
+    color: var(--primary-hover);
 }
 
 /* Responsive */
@@ -157,10 +148,6 @@
 
     .hero h1 {
         font-size: 2rem;
-    }
-
-    .serviceGrid {
-        grid-template-columns: 1fr;
     }
 
     .latestCard {

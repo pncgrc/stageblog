@@ -1,35 +1,35 @@
 .stage h2 {
     font-size: 1.8rem;
-    color: mediumpurple;
+    font-weight: 600;
+    color: var(--text-primary);
     margin: 0 0 16px;
 }
 
 .stage h3 {
-    font-size: 1.2rem;
-    color: mediumpurple;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
     margin: 0 0 12px;
 }
 
 .stage p {
     line-height: 1.75;
     margin: 0 0 14px;
-    opacity: 0.85;
+    color: var(--text-secondary);
 }
 
 .stage a {
-    color: mediumpurple;
+    color: var(--primary);
     font-weight: 600;
-    text-decoration: none;
 }
 
 .stage a:hover {
-    opacity: 0.75;
-    color: mediumpurple;
+    color: var(--primary-hover);
 }
 
 .divider {
     border: none;
-    border-top: 1px solid rgba(147, 112, 219, 0.2);
+    border-top: 1px solid var(--border);
     margin: 28px 0;
 }
 
@@ -43,9 +43,9 @@
 .techBadge {
     padding: 6px 14px;
     border-radius: 20px;
-    background-color: rgba(147, 112, 219, 0.1);
-    border: 1px solid rgba(147, 112, 219, 0.25);
+    background-color: var(--primary-soft);
+    border: 1px solid var(--primary-border);
     font-size: 0.85rem;
     font-weight: 500;
-    color: mediumpurple;
+    color: var(--primary);
 }

@@ -1,3 +1,4 @@
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import styles from './ProfileSection.module.css';
 
 const ProfileSection = () => {
@@ -23,10 +24,10 @@ const ProfileSection = () => {
                 </p>
                 <div className={styles.links}>
                     <a href="https://www.linkedin.com/in/pncn-grc" target="_blank" rel="noreferrer" className={styles.linkBadge}>
-                        LinkedIn
+                        <FaLinkedin /> LinkedIn
                     </a>
                     <a href="https://github.com/pncgrc" target="_blank" rel="noreferrer" className={styles.linkBadge}>
-                        GitHub
+                        <FaGithub /> GitHub
                     </a>
                 </div>
             </div>

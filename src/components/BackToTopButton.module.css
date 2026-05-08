@@ -4,16 +4,16 @@
     right: 20px;
     width: 48px;
     height: 48px;
-    border-radius: 8px;
-    border: 1px solid transparent;
+    border-radius: 12px;
+    border: 1px solid var(--border);
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #282A36;
-    color: rgba(255, 255, 255, 0.87);
+    background-color: var(--surface-elevated);
+    color: var(--text-secondary);
     cursor: pointer;
-    transition: border-color 0.25s, opacity 0.3s, transform 0.2s;
+    transition: border-color var(--transition-fast), opacity var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-fast);
     z-index: 1000;
     opacity: 0;
     transform: translateY(10px);
@@ -27,23 +27,19 @@
 }
 
 .backToTop:hover {
-    border-color: #646cff;
+    border-color: var(--primary-border);
+    box-shadow: var(--shadow-sm);
     transform: translateY(-2px);
+    color: var(--text-primary);
 }
 
 .backToTop:focus,
 .backToTop:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
 }
 
 .backToTop svg {
     width: 24px;
     height: 24px;
-}
-
-@media (prefers-color-scheme: light) {
-    .backToTop {
-        background-color: #f9f9f9;
-        color: #213547;
-    }
 }
