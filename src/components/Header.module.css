@@ -3,6 +3,8 @@
 }
 
 .headerContainer {
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
     max-width: 1280px;
@@ -14,5 +16,21 @@
 }
 
 .headerContainer h1:hover {
+    color: rgb(224, 224, 224);
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+    margin: auto 0;
+}
+
+.nav a:hover {
     color: rgb(224, 224, 224);
 }
