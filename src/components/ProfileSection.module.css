@@ -10,19 +10,10 @@
     top: 88px;
 }
 
-.photoPlaceholder {
+.profilePicture {
     width: 220px;
     height: 220px;
     border-radius: 12px;
-    background-color: var(--primary-soft);
-    border: 2px dashed var(--primary-border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--primary);
-    letter-spacing: 0.05em;
 }
 
 .bio h1 {

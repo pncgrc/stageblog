@@ -7,10 +7,8 @@ const Post = ({post}: PostProps) => {
 
     return(
         <article className={styles.Post}>
-            <div className={styles.postHeader}>
-                <h2>{post.title}</h2>
-                <p className={styles.date}>{formatDate(post.date)}</p>
-            </div>
+            <h2>{post.title}</h2>
+            <p className={styles.date}>{formatDate(post.date)}</p>
             <img src={post.imageUrl} alt="" />
             <div>{documentToReactComponents(post.description)}</div>
             <p>Tags: {post.tags}</p>

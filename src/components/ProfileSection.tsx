@@ -1,11 +1,12 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import styles from './ProfileSection.module.css';
+import poncihs from '../assets/images/ponci-hs-sq.png';
 
 const ProfileSection = () => {
     return (
         <section className={styles.profile}>
             <div className={styles.photoWrapper}>
-                <div className={styles.photoPlaceholder}>PG</div>
+                <img src={poncihs} alt="Ponci's headshot" className={styles.profilePicture}/>
             </div>
             <div className={styles.bio}>
                 <h1>Over mij</h1>
@@ -18,8 +19,7 @@ const ProfileSection = () => {
                 <p>
                     Ik studeer af met hoge onderscheiding en heb een sterke interesse in analyse, UX en het bouwen
                     van full stack applicaties die zowel technisch performant als gebruiksvriendelijk zijn. Daarnaast
-                    interesseren games en triatlon mij sterk. Mijn grootste sterktes liggen in data-analyse, data
-                    querying en UI/UX. Mijn ambitie is om mijn technische en analytische vaardigheden verder te
+                    interesseren games en triatlon mij sterk. Mijn grootste sterktes liggen in data-analyse en UI/UX. Mijn ambitie is om mijn technische en analytische vaardigheden verder te
                     ontwikkelen om uit te groeien tot een zo sterk mogelijke developer.
                 </p>
                 <div className={styles.links}>
